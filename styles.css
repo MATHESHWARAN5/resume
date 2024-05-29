@@ -1,0 +1,133 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-pic img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.name-title h1 {
+    margin: 0;
+}
+
+.contact-info {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.main-content {
+    margin-top: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    background-color: #f4b400;
+    padding: 10px;
+    margin: 0 -20px 10px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-container h3 {
+    margin: 0 0 10px;
+}
+
+.skills-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills-container ul li {
+    margin-bottom: 15px;
+}
+
+.skill-bar {
+    background-color: #e0e0e0;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+    height: 10px;
+    margin-top: 5px;
+}
+
+.skill-level {
+    background-color: #f4b400;
+    height: 100%;
+    border-radius: 3px 0 0 3px;
+}
+
+.job, .education-item {
+    margin-bottom: 20px;
+}
+
+.job h3, .education-item h3 {
+    margin: 0 0 5px;
+}
+
+.job p, .education-item p {
+    margin: 5px 0;
+    font-style: italic;
+    color: #666;
+}
+
+.job ul, .education-item ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+    }
+
+    .profile-pic img {
+        margin-bottom: 10px;
+    }
+
+    .skills-container {
+        flex-direction: column;
+    }
+
+    .skills-container div {
+        margin-bottom: 20px;
+    }
+}
